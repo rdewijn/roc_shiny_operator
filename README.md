@@ -1,4 +1,4 @@
-# shiny operator for Tercen
+# roc_shiny_operator
 
 ##### Description
 
