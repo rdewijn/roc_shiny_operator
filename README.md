@@ -1,14 +1,13 @@
-# Template Shiny operator for Tercen
+# shiny operator for Tercen
 
 ##### Description
 
-The `roc_shiny_operator` is an operator for making a ROC plot and calculating classification metrics in Tercen.
+The `roc_shiny_operator` is an operator for making a Receiver Operator Curve (ROC) plot and calculating classification metrics in Tercen.
 
 ##### Usage
 
 Input projection|.
 ---|---
-
 `y-axis`        | numeric, continuous predictor  
 `row`  or `column`| factor, observations 
 `colors`        | factor, predicted class 
