@@ -2,27 +2,27 @@
 
 ##### Description
 
-The `Template Shiny operator` is a template repository for the creation of Shiny operators in Tercen.
+The `roc_shiny_operator` is an operator for making a ROC plot and calculating classification metrics in Tercen.
 
 ##### Usage
 
 Input projection|.
 ---|---
-`x-axis`        | type, description 
-`y-axis`        | type, description 
-`row`           | type, description 
-`column`        | type, description 
-`colors`        | type, description 
-`labels`        | type, description 
+
+`y-axis`        | numeric, continuous predictor  
+`row`  or `column`| factor, observations 
+`colors`        | factor, predicted class 
+`labels`        | factor, reference class 
 
 Output relations|.
 ---|---
-`Operator view`        | view of the Shiny application
+`Operator view`        | ROC curve and classification metrics
+`ROC tab` | ROC curve and corresponding Area Under the Curve (AUC) value
+`metrics tab`| classification metrics such as accuracy, sensitivity, specificity, NPV, PPV
 
 ##### Details
 
-Details on the computation.
 
 ##### See Also
 
-[template_R_operator](https://github.com/tercen/template_R_operator)
+
